@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		06D5EFE667B66E5F51133AD1 /* Pods_StalkCentral_StalkCentralUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F32EE35C7DB1F3D9460F77E /* Pods_StalkCentral_StalkCentralUITests.framework */; };
+		0A75F321243680A80035E665 /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A75F320243680A80035E665 /* Authentication.swift */; };
+		0A75F323243684990035E665 /* LoginDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A75F322243684990035E665 /* LoginDelegates.swift */; };
 		0AC76A6024365CC500325857 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC76A5F24365CC500325857 /* AppDelegate.swift */; };
 		0AC76A6224365CC500325857 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC76A6124365CC500325857 /* SceneDelegate.swift */; };
 		0AC76A6424365CC500325857 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC76A6324365CC500325857 /* ContentView.swift */; };
@@ -17,6 +19,8 @@
 		0AC76A7724365CC700325857 /* StalkCentralTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC76A7624365CC700325857 /* StalkCentralTests.swift */; };
 		0AC76A8224365CC800325857 /* StalkCentralUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC76A8124365CC800325857 /* StalkCentralUITests.swift */; };
 		0AC76A9024365D9C00325857 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0AC76A8F24365D9C00325857 /* GoogleService-Info.plist */; };
+		0ACD12DE2436604700488224 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACD12DD2436604700488224 /* LoginView.swift */; };
+		0ACD12E0243663B100488224 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACD12DF243663B100488224 /* Session.swift */; };
 		0B8FF451918AEA7DA71B98AE /* Pods_StalkCentralTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7146398A5693FEB52EE344AF /* Pods_StalkCentralTests.framework */; };
 		A316493C07E4051DD1B9505F /* Pods_StalkCentral.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D893425813505635D8A4AD3 /* Pods_StalkCentral.framework */; };
 /* End PBXBuildFile section */
@@ -40,6 +44,9 @@
 
 /* Begin PBXFileReference section */
 		08DC937EDF4BCCF29A92337A /* Pods-StalkCentral-StalkCentralUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StalkCentral-StalkCentralUITests.debug.xcconfig"; path = "Target Support Files/Pods-StalkCentral-StalkCentralUITests/Pods-StalkCentral-StalkCentralUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0A75F31F2436770F0035E665 /* StalkCentral.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StalkCentral.entitlements; sourceTree = "<group>"; };
+		0A75F320243680A80035E665 /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
+		0A75F322243684990035E665 /* LoginDelegates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDelegates.swift; sourceTree = "<group>"; };
 		0AC76A5C24365CC500325857 /* StalkCentral.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StalkCentral.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AC76A5F24365CC500325857 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0AC76A6124365CC500325857 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +62,8 @@
 		0AC76A8124365CC800325857 /* StalkCentralUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StalkCentralUITests.swift; sourceTree = "<group>"; };
 		0AC76A8324365CC800325857 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0AC76A8F24365D9C00325857 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0ACD12DD2436604700488224 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		0ACD12DF243663B100488224 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 		2730BF5454A7253FF17EF007 /* Pods-StalkCentralTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StalkCentralTests.release.xcconfig"; path = "Target Support Files/Pods-StalkCentralTests/Pods-StalkCentralTests.release.xcconfig"; sourceTree = "<group>"; };
 		2D893425813505635D8A4AD3 /* Pods_StalkCentral.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StalkCentral.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EBC30C7F8E0123DEA72F870 /* Pods-StalkCentral.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StalkCentral.release.xcconfig"; path = "Target Support Files/Pods-StalkCentral/Pods-StalkCentral.release.xcconfig"; sourceTree = "<group>"; };
@@ -118,6 +127,7 @@
 		0AC76A5E24365CC500325857 /* StalkCentral */ = {
 			isa = PBXGroup;
 			children = (
+				0A75F31F2436770F0035E665 /* StalkCentral.entitlements */,
 				0AC76A5F24365CC500325857 /* AppDelegate.swift */,
 				0AC76A6124365CC500325857 /* SceneDelegate.swift */,
 				0AC76A6324365CC500325857 /* ContentView.swift */,
@@ -126,6 +136,10 @@
 				0AC76A8F24365D9C00325857 /* GoogleService-Info.plist */,
 				0AC76A6D24365CC700325857 /* Info.plist */,
 				0AC76A6724365CC700325857 /* Preview Content */,
+				0ACD12DD2436604700488224 /* LoginView.swift */,
+				0A75F322243684990035E665 /* LoginDelegates.swift */,
+				0ACD12DF243663B100488224 /* Session.swift */,
+				0A75F320243680A80035E665 /* Authentication.swift */,
 			);
 			path = StalkCentral;
 			sourceTree = "<group>";
@@ -421,7 +435,11 @@
 			files = (
 				0AC76A6024365CC500325857 /* AppDelegate.swift in Sources */,
 				0AC76A6224365CC500325857 /* SceneDelegate.swift in Sources */,
+				0A75F323243684990035E665 /* LoginDelegates.swift in Sources */,
+				0ACD12DE2436604700488224 /* LoginView.swift in Sources */,
 				0AC76A6424365CC500325857 /* ContentView.swift in Sources */,
+				0ACD12E0243663B100488224 /* Session.swift in Sources */,
+				0A75F321243680A80035E665 /* Authentication.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -587,6 +605,7 @@
 			baseConfigurationReference = 307BD55C4E35E0B2733F8D65 /* Pods-StalkCentral.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = StalkCentral/StalkCentral.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"StalkCentral/Preview Content\"";
 				DEVELOPMENT_TEAM = S7BT87895F;
@@ -600,7 +619,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sideapps.StalkCentral;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -609,6 +628,7 @@
 			baseConfigurationReference = 2EBC30C7F8E0123DEA72F870 /* Pods-StalkCentral.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = StalkCentral/StalkCentral.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"StalkCentral/Preview Content\"";
 				DEVELOPMENT_TEAM = S7BT87895F;
@@ -622,7 +642,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sideapps.StalkCentral;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

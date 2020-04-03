@@ -21,16 +21,13 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             MasterView(dates: $dates)
-                .navigationBarTitle(Text("Master"))
+                .navigationBarTitle(Text("Open Islands"))
                 .navigationBarItems(
-                    leading: EditButton(),
-                    trailing: Button(
-                        action: {
-                            withAnimation { self.dates.insert(Date(), at: 0) }
-                        }
-                    ) {
-                        Image(systemName: "plus")
-                    }
+                    leading: Button(action: {
+                        Session.shared.logOut()
+                    }, label: {
+                        Text("Sign Out")
+                    })
                 )
             DetailView()
         }.navigationViewStyle(DoubleColumnNavigationViewStyle())
